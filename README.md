@@ -1,8 +1,31 @@
 # Hypothesis Tests for Strategic Business Insights
 
+
+---
+
 ## Description
 
+---
+
 This repository contains 10 comprehensive projects focused on applying various statistical hypothesis tests to generate strategic business insights. Each project uses synthetic or real datasets to demonstrate how hypothesis testing can aid in making informed business decisions by validating assumptions, comparing groups, and identifying relationships between variables. The projects span parametric and non-parametric tests to handle different data characteristics and assumptions, providing a robust toolkit for data-driven analysis.
+
+## Table of Contents
+- [Description](#description)
+- [Projects Overview](#projects-overview)
+- [Detailed Project Information](#detailed-project-information)
+  - [1. A/B Testing](#1-ab-testing)
+  - [2. Chi-Square Test](#2-chi-square-test)
+  - [3. Two-Sample T-Test](#3-two-sample-t-test)
+  - [4. Paired T-Test](#4-paired-t-test)
+  - [5. ANOVA](#5-anova)
+  - [6. Correlation Coefficient](#6-correlation-coefficient)
+  - [7. Mann-Whitney U Test](#7-mann-whitney-u-test)
+  - [8. Wilcoxon Signed-Rank Test](#8-wilcoxon-signed-rank-test)
+  - [9. Kruskal-Wallis Test](#9-kruskal-wallis-test)
+  - [10. Chi-Square Goodness of Fit Test](#10-chi-square-goodness-of-fit-test)
+- [Conclusion](#conclusion)
+- [How to Run These Projects](#how-to-run-these-projects)
+
 
 ---
 
