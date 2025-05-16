@@ -371,15 +371,23 @@ Observed distribution aligns with expected customer distribution.
 
 ---
 
+## How to Run These Projects
+
+1. Open the project in [Google Colab](https://colab.research.google.com/)
+2. Upload your Excel dataset when prompted.
+3. Run all cells in order:
+   - Data loading
+   - EDA
+   - Contingency table creation
+   - Visualization
+   - Statistical testing
+4. Review the final statistical output and visualizations.
+
+---
+
 ## Conclusion
 
 This collection of projects provides a foundational understanding of diverse hypothesis testing methods applicable in business contexts. By rigorously checking assumptions and applying appropriate parametric or non-parametric tests, these projects showcase how statistical testing can validate business hypotheses, support decision-making, and uncover actionable insights.
 
 ---
 
-## How to Run These Projects
-
-1. Clone this repository:  
-   ```bash
-   git clone <repository-url>
-   cd <repository-folder>
