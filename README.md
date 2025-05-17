@@ -323,9 +323,9 @@ A retail chain observes slight revenue differences between its North and South l
 • **p-value = 0.112** (> 0.05 threshold)  
 • **Conclusion:** Fail to reject null hypothesis  
 
-### 📢 Business Interpretation  
+### Business Interpretation  
 
-Despite the $1,000 higher average revenue in South region, this difference is **not statistically significant**. Regional strategies should focus on factors beyond geography to improve revenue.
+📢**Despite the $1,000 higher average revenue in South region, this difference is **not statistically significant**. Regional strategies should focus on factors beyond geography to improve revenue.**
 
 
 ---
@@ -410,8 +410,10 @@ This project uses a **Paired T-Test** to evaluate whether an advertising campaig
 • **Average Lift:** +10 units per store (5% increase)  
 • **Confidence:** 95% certain true effect is between +3.8 to +16.2 units  
 
-### 📢 Executive Conclusion  
-"The advertising campaign **successfully increased sales** by an average of 10 units per store (p < 0.01). This statistically significant result suggests the campaign should be considered for scaling to other markets." 
+### Executive Conclusion  
+📢 **The advertising campaign **successfully increased sales** by an average of 10 units per store (p < 0.01). This statistically significant result suggests the campaign should be considered for scaling to other markets.**
+
+
 ---
 
 ### 5. ANOVA
