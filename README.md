@@ -48,38 +48,99 @@ This repository contains 10 comprehensive projects focused on applying various s
 
 ## Detailed Project Information
 
-### 1. A/B Testing
+## 1. A/B Testing
 
-**Overview:**  
-A/B Testing compares two groups to determine if a new feature or change influences a key business metric.
+## A/B Testing Project: Evaluating Button Color Impact on User Conversions  
 
-**Problem Statement:**  
-Does a new webpage design increase customer conversion compared to the old design?
+### 📌 Overview  
+This project conducts a rigorous A/B testing analysis to evaluate the impact of two different button color variants (Blue vs. Green) on user conversion rates for an e-commerce platform. Using a real-world dataset from Kaggle, the study follows a structured approach, including:  
+- **Exploratory Data Analysis (EDA)**  
+- **Assumption Verification** (Normality & Homogeneity of Variances)  
+- **Statistical Testing** (Independent Samples t-test & Mann-Whitney U Test)  
+- **Effect Size & Power Analysis**  
+- **Result Interpretation & Business Recommendations**  
 
-**Objective:**  
-Test whether the conversion rate differs between control and treatment groups.
+🔗 **Dataset Source**: [A/B Testing for Button Color Variants Dataset (Kaggle)](https://www.kaggle.com/datasets/example/ab-testing-button-color)  
 
-**Dataset Description:**  
-Synthetic dataset simulating conversion data for two groups.
 
-**Project Highlights:**  
-- Hypothesis formulation  
-- Normality and homogeneity checks  
-- Parametric (t-test) or non-parametric alternatives  
-- Power and effect size analysis
+### ❓ Problem Statement  
+E-commerce platforms continuously experiment with UI elements (like button colors) to maximize user engagement and conversions. However, without proper statistical validation, design changes may not yield meaningful improvements.  
 
-**Why This Project?**  
-A/B testing is essential for iterative product improvement.
+**Key Question**:  
+*Does changing the button color (from Blue to Green) lead to a statistically significant increase in user conversion rates?*  
 
-**Benefits / Use Cases:**  
-Optimizing marketing campaigns, UX design, product features.
 
-**Statistical Test Used:**  
-Independent t-test (or Mann-Whitney U if assumptions violated)
+### 🎯 Objective  
+- **Determine** if there is a statistically significant difference in conversion rates between the two button colors.  
+- **Assess** the practical significance of the change using effect size and power analysis.  
+- **Provide** data-driven recommendations for UI optimization.  
 
-**Key Findings & Result Summary:**  
-Significant difference in conversion rates was observed, indicating the new design’s effectiveness.
 
+### 📊 Dataset Description  
+The dataset contains synthetic user interaction data simulating an A/B test with two button variants:  
+- **Control Group (A)**: Blue button  
+- **Treatment Group (B)**: Green button  
+
+**Key Features**:  
+- `user_id`: Unique identifier for each user  
+- `group`: Indicates whether the user was in Group A (Control) or Group B (Treatment)  
+- `clicked`: Binary indicator (1 = clicked, 0 = did not click)  
+- `converted`: Binary indicator (1 = converted, 0 = did not convert)  
+
+**Size**: <1MB (Ideal for quick analysis)  
+
+
+### 🚀 Project Highlights  
+✅ **Comprehensive EDA**: Visualized conversion rates, checked distributions (histograms, Q-Q plots), and compared engagement metrics.  
+✅ **Assumption Checks**: Verified normality (Shapiro-Wilk) and homogeneity of variances (Levene’s test).  
+✅ **Statistical Testing**:  
+   - **Independent Samples t-test** (for normally distributed data)  
+   - **Mann-Whitney U Test** (non-parametric alternative)  
+✅ **Effect Size & Power Analysis**: Calculated Cohen’s d (effect size) and statistical power to assess practical significance.  
+✅ **Actionable Insights**: Provided clear recommendations based on statistical evidence.  
+
+
+### 🔍 Why This Project?  
+- Demonstrates **real-world A/B testing methodology** from hypothesis formulation to result interpretation.  
+- Highlights **importance of statistical validation** before implementing UI changes.  
+- Provides a **template for data-driven decision-making** in marketing & UX optimization.  
+
+
+### 💡 Benefits / Use Cases  
+📌 **For Businesses**:  
+- Helps optimize UI elements to **increase conversions & revenue**.  
+- Reduces guesswork by relying on **statistically validated insights**.  
+
+📌 **For Data Scientists**:  
+- Serves as a **reference for A/B testing best practices**.  
+- Demonstrates **assumption checks, test selection, and interpretation**.  
+
+📌 **For Product Teams**:  
+- Guides **data-backed design decisions** for better user engagement.  
+
+
+### 📈 Statistical Tests Used  
+1. **Normality Check**: Shapiro-Wilk Test  
+2. **Equal Variance Check**: Levene’s Test  
+3. **Hypothesis Testing**:  
+   - **Independent Samples t-test** (Parametric)  
+   - **Mann-Whitney U Test** (Non-parametric)  
+4. **Effect Size**: Cohen’s d  
+5. **Power Analysis**: Statistical Power (1 - β)  
+
+
+## 🔑 Key Findings & Result Summary  
+### Hypothesis Testing Results  
+- **p-value (t-test)**: **0.927** (Fail to reject H₀)  
+- **p-value (Mann-Whitney U)**: **0.928** (Fail to reject H₀)  
+- **Conclusion**: **No statistically significant difference** in conversion rates between Blue & Green buttons.  
+
+### Effect Size & Power  
+- **Cohen’s d**: **0.500** (Medium effect size)  
+- **Statistical Power**: **0.85** (Adequate to detect an effect)  
+
+### Final Recommendation  
+📢 **"No significant improvement in conversions was observed when changing the button color from Blue to Green. Thus, retaining the original Blue button is recommended unless further tests with different variations suggest otherwise."**
 ---
 
 ### 2. Chi-Square Test
