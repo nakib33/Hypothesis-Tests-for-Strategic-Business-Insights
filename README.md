@@ -1,15 +1,15 @@
-# Hypothesis Tests for Strategic Business Insights
+# 🚀 Hypothesis Tests for Strategic Business Insights
 
 
 ---
 
-## Description
+## 📌 Description
 
 ---
 
 This repository contains 10 comprehensive projects focused on applying various statistical hypothesis tests to generate strategic business insights. Each project uses synthetic or real datasets to demonstrate how hypothesis testing can aid in making informed business decisions by validating assumptions, comparing groups, and identifying relationships between variables. The projects span parametric and non-parametric tests to handle different data characteristics and assumptions, providing a robust toolkit for data-driven analysis.
 
-## Table of Contents
+## 📁 Table of Contents
 - [Description](#description)
 - [Projects Overview](#projects-overview)
 - [Detailed Project Information](#detailed-project-information)
@@ -23,8 +23,10 @@ This repository contains 10 comprehensive projects focused on applying various s
   - [8. Wilcoxon Signed-Rank Test](#8-wilcoxon-signed-rank-test)
   - [9. Kruskal-Wallis Test](#9-kruskal-wallis-test)
   - [10. Chi-Square Goodness of Fit Test](#10-chi-square-goodness-of-fit-test)
-- [Conclusion](#conclusion)
+- [Technical Implementation](#technical-implementation)
 - [How to Run These Projects](#how-to-run-these-projects)
+- [Conclusion](#conclusion)
+
 
 
 ---
