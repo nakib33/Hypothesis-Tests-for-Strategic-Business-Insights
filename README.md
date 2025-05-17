@@ -416,35 +416,91 @@ This project uses a **Paired T-Test** to evaluate whether an advertising campaig
 
 ---
 
-### 5. ANOVA
+## 5. ANOVA
 
-**Overview:**  
-Tests for mean differences across three or more groups.
+📄 **Peoject Link:** **[ANOVA Test](Hypothesis%20Testing/Hypothesis%20Tests/3.%20ANOVA%20Test.ipynb)**
 
-**Problem Statement:**  
-Do revenues differ by marketing channel?
+##📊 ANOVA Analysis: Comparing Marketing Campaign Effectiveness  
 
-**Objective:**  
-Compare mean revenue among Email, Social Media, and TV campaigns.
+### 🌟 Overview  
+This project employs **One-Way ANOVA** to evaluate whether three marketing campaigns (Email, Social Media, TV) generate significantly different revenue outcomes. Through rigorous assumption checks and statistical testing, we provide data-driven insights for marketing strategy optimization.
 
-**Dataset Description:**  
-Synthetic dataset with revenue per campaign type.
+### ❓ Problem Statement  
+"Do our different marketing campaigns (Email vs. Social Media vs. TV) produce meaningfully different revenue results, or are observed variations just random?"
 
-**Project Highlights:**  
-- Normality and homogeneity checks  
-- One-way ANOVA analysis
+### 🎯 Objective  
+• Determine if campaign type affects revenue generation  
+• Validate ANOVA assumptions for reliable results  
+• Guide future marketing budget allocation  
 
-**Why This Project?**  
-Identify most effective marketing channel.
+### 📊 Dataset Description  
+**Synthetic Revenue Data (90 Customers):**  
+• **Email Campaign (30):**  
+  - Mean: $250  
+  - SD: $30  
+• **Social Media (30):**  
+  - Mean: $270  
+  - SD: $25  
+• **TV Campaign (30):**  
+  - Mean: $260  
+  - SD: $35  
 
-**Benefits / Use Cases:**  
-Budget optimization, channel strategy.
+**Variables:**  
+• `campaign_type`: Categorical (3 levels)  
+• `revenue`: Continuous numerical values  
 
-**Statistical Test Used:**  
-ANOVA (Analysis of Variance)
+### 🚀 Project Highlights  
+✅ **Comprehensive Assumption Checks:**  
+   - Normality per group (Shapiro-Wilk all p > 0.05)  
+   - Homogeneity of variance (Levene's p = 0.084)  
+   - Independence by design  
 
-**Key Findings & Result Summary:**  
-No significant difference in mean revenue among channels.
+✅ **Robust Statistical Testing:**  
+   - Proper ANOVA implementation  
+   - Effect size calculation (η² optional)  
+
+✅ **Actionable Visualization:**  
+   - Boxplots showing revenue distributions  
+   - Q-Q plots for normality verification  
+
+### 🔍 Why This Matters  
+• Demonstrates proper **multi-group comparison** methodology  
+• Highlights importance of **assumption validation** before ANOVA  
+• Provides framework for **marketing ROI analysis**  
+
+### 💡 Business Value  
+📌 **For CMOs:**  
+   - Data-backed campaign evaluation  
+   - Objective budget allocation guidance  
+
+📌 **For Marketing Teams:**  
+   - Identifies equally effective channels  
+   - Prevents over-investment in underperforming campaigns  
+
+📌 **For Data Teams:**  
+   - Complete ANOVA workflow example  
+   - Assumption checking best practices  
+
+### 📈 Statistical Approach  
+1. **Assumption Verification:**  
+   - Shapiro-Wilk normality tests (All groups p > 0.05)  
+   - Levene's test for equal variances (p = 0.084)  
+
+2. **One-Way ANOVA Results:**  
+   - F-statistic: 1.699  
+   - p-value: 0.189  
+   - Group Means:  
+     • Email: $250  
+     • Social: $270  
+     • TV: $260  
+
+### 🔑 Key Findings  
+• **High p-value (0.189 > 0.05)** → Fail to reject null  
+• **No significant revenue differences** between campaigns  
+• Observed $20 variations likely due to random chance  
+
+###  Strategic Conclusion  
+📢 **All three campaigns perform **statistically similarly** in revenue generation (p = 0.19). Marketing budgets could be allocated based on other factors like customer reach or cost efficiency rather than expected revenue differences.**
 
 ---
 
