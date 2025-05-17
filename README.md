@@ -504,35 +504,90 @@ This project employs **One-Way ANOVA** to evaluate whether three marketing campa
 
 ---
 
-### 6. Correlation Coefficient
+## 6. Correlation Coefficient
 
-**Overview:**  
-Measures strength and direction of linear relationship between two variables.
+📄 **Peoject Link:** **[Correlation_Coefficient.ipynb](Hypothesis%20Testing/Hypothesis%20Tests/4_Correlation_Coefficient.ipynb)**
 
-**Problem Statement:**  
-Is ad spend correlated with revenue?
+##📈 Correlation Analysis: Advertising Spend vs Revenue  
 
-**Objective:**  
-Quantify correlation between advertising costs and sales revenue.
+### 🌟 Overview  
+This project investigates the relationship between advertising expenditure and revenue generation using Pearson's correlation coefficient. Through synthetic data modeling and rigorous statistical testing, we determine whether increased ad spending reliably predicts higher revenue.
 
-**Dataset Description:**  
-Synthetic ad spend and revenue data.
+### ❓ Problem Statement  
+"Does increasing our advertising budget lead to proportionally higher revenue, or are other factors more influential?"  
 
-**Project Highlights:**  
-- Scatter plot visualization  
-- Pearson correlation and significance test
+### 🎯 Objective  
+• Quantify the ad spend-revenue relationship  
+• Validate statistical assumptions for correlation analysis  
+• Provide data-driven marketing investment guidance  
 
-**Why This Project?**  
-Understand ROI on advertising.
+### 📊 Dataset Description  
+**Synthetic Marketing Data (100 Weeks):**  
+• **Advertising Spend:**  
+  - Mean: $10,000  
+  - SD: $2,000  
+  - Normally distributed  
+• **Revenue:**  
+  - Weak linear relationship (5% of ad spend)  
+  - Added noise: N(500,500)  
 
-**Benefits / Use Cases:**  
-Budget planning, forecasting.
+**Variables:**  
+• `ad_spend`: Continuous numerical (USD)  
+• `revenue`: Continuous numerical (USD)  
 
-**Statistical Test Used:**  
-Pearson Correlation Coefficient
+### 🚀 Project Highlights  
+✅ **Comprehensive Assumption Checks:**  
+   - Normality confirmed (Shapiro-Wilk p > 0.05)  
+   - Variance homogeneity verified  
 
-**Key Findings & Result Summary:**  
-Weak, non-significant correlation found between ad spend and revenue.
+✅ **Robust Statistical Testing:**  
+   - Pearson's r calculation  
+   - Two-tailed significance testing  
+
+✅ **Practical Interpretation:**  
+   - Business-focused conclusions  
+   - Clear effect size reporting  
+
+### 🔍 Why This Matters  
+• Demonstrates proper **bivariate correlation** analysis  
+• Highlights importance of **testing assumptions**  
+• Provides framework for **marketing ROI evaluation**  
+
+### 💡 Business Value  
+📌 **For CFOs:**  
+   - Evidence for budget allocation decisions  
+   - Identifies weak spending-revenue linkages  
+
+📌 **For Marketing Teams:**  
+   - Guides campaign optimization strategies  
+   - Supports case for testing alternative channels  
+
+📌 **For Data Teams:**  
+   - Complete correlation analysis template  
+   - Assumption validation best practices  
+
+### 📈 Statistical Approach  
+1. **Assumption Verification:**  
+   - Normality (Shapiro-Wilk p = 0.6552 & 0.2083)  
+   - Homogeneity (Levene's p < 0.001)  
+
+2. **Pearson Correlation Results:**  
+   - r = 0.0545 (Very weak positive)  
+   - p-value = 0.5904  
+   - 95% CI: [-0.14, 0.24]  
+
+### 🔑 Key Findings  
+• **Statistically Insignificant** relationship (p > 0.05)  
+• **Negligible Effect Size** (r < 0.1)  
+• Only **5.4% of revenue variance** explained by ad spend  
+
+### 📢 Strategic Conclusion  
+
+**No significant linear relationship exists between advertising spend and revenue (p = 0.59). Businesses should:**  
+1️⃣ **Investigate other revenue drivers**  
+2️⃣ **Optimize existing campaigns before increasing budgets**  
+3️⃣ **Test alternative marketing channels**
+
 
 ---
 
