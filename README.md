@@ -238,35 +238,94 @@ E-commerce businesses often wonder if demographic factors like gender influence 
   
 ---
 
-### 3. Two-Sample T-Test
+## 3. Two-Sample T-Test
 
-**Overview:**  
-Compares means of two independent groups.
+##📊 Two-Sample T-Test: Revenue Comparison Between North and South Regions  
 
-**Problem Statement:**  
-Does average sales differ between two regions?
+📄 **Peoject Link:** **[Two-Sample T-Test.ipynb](Hypothesis%20Testing/Hypothesis%20Tests/1.%20Two-Sample%20T-Test.ipynb)**
 
-**Objective:**  
-Test for mean difference in sales volumes.
+### 🌐 Overview  
+This project performs a Two-Sample Independent t-test to analyze whether there's a statistically significant difference in average revenue between North and South regions of a retail business. Using a carefully generated synthetic dataset, we:  
+• Visualize revenue distributions  
+• Validate statistical assumptions  
+• Conduct hypothesis testing  
+• Derive business insights  
 
-**Dataset Description:**  
-Synthetic sales data from two regions.
+### ❓ Problem Statement  
+A retail chain observes slight revenue differences between its North and South locations. Management needs to know:  
+*"Is this observed difference statistically significant, or just random variation?"*  
 
-**Project Highlights:**  
-- Normality and variance homogeneity checks  
-- Parametric two-sample t-test or non-parametric alternative
+### 🎯 Objective  
+• Determine if regional revenue differences are statistically meaningful  
+• Demonstrate proper t-test application with assumption checks  
+• Provide data-backed recommendations for regional strategy  
 
-**Why This Project?**  
-Identify regional sales performance differences.
+### 📊 Dataset Description  
+**Synthetic Revenue Data (500 records):**  
+• **North Region (250 samples):**  
+  - Mean: $50,000  
+  - Standard Deviation: $8,000  
+• **South Region (250 samples):**  
+  - Mean: $51,000  
+  - Standard Deviation: $8,500  
 
-**Benefits / Use Cases:**  
-Resource allocation, regional marketing.
+**Variables:**  
+• `region`: Categorical (North/South)  
+• `revenue`: Continuous numerical values  
 
-**Statistical Test Used:**  
-Two-Sample T-Test
+### 🚀 Project Highlights  
+✅ **Data Visualization:**  
+   - Histograms with KDE plots  
+   - Q-Q plots for normality inspection  
 
-**Key Findings & Result Summary:**  
-Significant sales difference was observed between regions.
+✅ **Rigorous Assumption Testing:**  
+   - Shapiro-Wilk normality test (North p=0.126, South p=0.884)  
+   - Levene's test for equal variances  
+
+✅ **Proper Statistical Testing:**  
+   - Independent Two-Sample t-test implementation  
+   - Correct interpretation of p-values  
+
+✅ **Business-Ready Conclusions:**  
+   - Clear statistical findings translated to actionable insights  
+
+### 🔍 Why This Project Matters  
+• Real-world demonstration of t-test methodology  
+• Emphasizes critical assumption validation step  
+• Provides template for regional performance analysis  
+
+### 💡 Business Value  
+📌 **For Executives:**  
+   - Evidence-based regional strategy decisions  
+   - Avoids overreacting to random fluctuations  
+
+📌 **For Analysts:**  
+   - Complete t-test workflow example  
+   - Proper assumption checking techniques  
+
+📌 **For Store Managers:**  
+   - Understands true performance differences  
+   - Guides resource allocation decisions  
+
+### 📈 Statistical Tests Performed  
+1. **Normality Testing:**  
+   - Shapiro-Wilk Test (Both regions p > 0.05 → Normally distributed)  
+
+2. **Equal Variance Testing:**  
+   - Levene's Test (p = 0.423 → Equal variances assumed)  
+
+3. **Two-Sample t-test Results:**  
+   - t-statistic: -1.593  
+   - p-value: 0.112  
+   - 95% Confidence Interval: (-2193.5, 228.3)  
+
+### 🔑 Key Findings  
+• **p-value = 0.112** (> 0.05 threshold)  
+• **Conclusion:** Fail to reject null hypothesis  
+
+### 📢 Business Interpretation  
+"Despite the $1,000 higher average revenue in South region, this difference is **not statistically significant**. Regional strategies should focus on factors beyond geography to improve revenue." 
+
 
 ---
 
