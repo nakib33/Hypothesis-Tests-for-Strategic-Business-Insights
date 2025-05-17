@@ -49,6 +49,7 @@ This repository contains 10 comprehensive projects focused on applying various s
 ## Detailed Project Information
 
 ## 1. A/B Testing
+📄 Code Link: **[A_B_Testing_Project.ipynb](Hypothesis%20Testing/AB%20Testing/A_B_Testing_Project.ipynb)**
 
 ## A/B Testing Project: Evaluating Button Color Impact on User Conversions  
 
@@ -128,8 +129,7 @@ The dataset contains synthetic user interaction data simulating an A/B test with
 4. **Effect Size**: Cohen’s d  
 5. **Power Analysis**: Statistical Power (1 - β)  
 
-
-## 🔑 Key Findings & Result Summary  
+### 🔑 Key Findings & Result Summary  
 ### Hypothesis Testing Results  
 - **p-value (t-test)**: **0.927** (Fail to reject H₀)  
 - **p-value (Mann-Whitney U)**: **0.928** (Fail to reject H₀)  
@@ -141,6 +141,8 @@ The dataset contains synthetic user interaction data simulating an A/B test with
 
 ### Final Recommendation  
 📢 **"No significant improvement in conversions was observed when changing the button color from Blue to Green. Thus, retaining the original Blue button is recommended unless further tests with different variations suggest otherwise."**
+
+
 ---
 
 ### 2. Chi-Square Test
