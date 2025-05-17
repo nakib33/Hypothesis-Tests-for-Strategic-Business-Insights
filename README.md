@@ -324,7 +324,8 @@ A retail chain observes slight revenue differences between its North and South l
 • **Conclusion:** Fail to reject null hypothesis  
 
 ### 📢 Business Interpretation  
-"Despite the $1,000 higher average revenue in South region, this difference is **not statistically significant**. Regional strategies should focus on factors beyond geography to improve revenue." 
+
+Despite the $1,000 higher average revenue in South region, this difference is **not statistically significant**. Regional strategies should focus on factors beyond geography to improve revenue.
 
 
 ---
