@@ -49,7 +49,7 @@ This repository contains 10 comprehensive projects focused on applying various s
 ## Detailed Project Information
 
 ## 1. A/B Testing
-📄 Code Link: **[A_B_Testing_Project.ipynb](Hypothesis%20Testing/AB%20Testing/A_B_Testing_Project.ipynb)**
+📄 **Peoject Link:** **[A_B_Testing_Project.ipynb](Hypothesis%20Testing/AB%20Testing/A_B_Testing_Project.ipynb)**
 
 ## A/B Testing Project: Evaluating Button Color Impact on User Conversions  
 
@@ -149,6 +149,8 @@ The dataset contains synthetic user interaction data simulating an A/B test with
 
 ## **Chi-Square Test Project: Gender vs Purchase Likelihood Analysis**  
 
+📄 **Peoject Link:** **[Chi_Square_Testing.ipynb](Hypothesis%20Testing/Chi-Square%20Test/Chi_Square_Testing.ipynb)**
+
 ### 📌 Overview  
 This project employs the **Chi-Square Test of Independence** to investigate whether a statistically significant association exists between customer gender and product purchase likelihood in an e-commerce context. Using a carefully crafted synthetic dataset that mimics real-world shopping behavior, the analysis includes:  
 - Data visualization of key variables (gender, purchase status, age)  
@@ -221,11 +223,11 @@ E-commerce businesses often wonder if demographic factors like gender influence 
 
 
 ### **🔑 Key Findings & Result Summary**  
-### Hypothesis Testing Results  
+**Hypothesis Testing Results:**  
 - **p-value**: 0.1641 (> 0.05 significance level)  
 - **Conclusion**: Fail to reject null hypothesis  
 
-### Business Interpretation  
+**Business Interpretation:** 
 📢 **"No statistically significant association found between gender and purchase likelihood. Marketing strategies should not prioritize gender-based targeting for this product."**  
 
 ### Supplementary Insights  
