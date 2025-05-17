@@ -240,7 +240,7 @@ E-commerce businesses often wonder if demographic factors like gender influence 
 
 ## 3. Two-Sample T-Test
 
-##📊 Two-Sample T-Test: Revenue Comparison Between North and South Regions  
+## 📊 Two-Sample T-Test: Revenue Comparison Between North and South Regions  
 
 📄 **Peoject Link:** **[Two-Sample T-Test.ipynb](Hypothesis%20Testing/Hypothesis%20Tests/1.%20Two-Sample%20T-Test.ipynb)**
 
@@ -329,36 +329,88 @@ A retail chain observes slight revenue differences between its North and South l
 
 ---
 
-### 4. Paired T-Test
+## 4. Paired T-Test
 
-**Overview:**  
-Compares means of two related groups.
+📄 **Peoject Link:** **[Paired T-Test.ipynb](Hypothesis%20Testing/Hypothesis%20Tests/2.%20Paired%20T-Test.ipynb)**
 
-**Problem Statement:**  
-Is there a sales increase after a marketing campaign?
+## **📊 Paired T-Test Analysis: Measuring Ad Campaign Effectiveness** 
 
-**Objective:**  
-Analyze sales before and after campaign for same customers.
+### 🌟 Overview  
+This project uses a **Paired T-Test** to evaluate whether an advertising campaign significantly impacted product sales across 30 stores. By comparing pre-campaign and post-campaign sales data from the same stores, we:  
+• Verified statistical assumptions  
+• Calculated meaningful effect sizes  
+• Provided actionable business recommendations  
 
-**Dataset Description:**  
-Synthetic paired sales data (before vs after campaign).
+### ❓ Problem Statement  
+"Did our recent marketing campaign actually increase store sales, or are the observed improvements just random fluctuations?"  
 
-**Project Highlights:**  
-- Paired data analysis  
-- Normality checks on difference scores
+### 🎯 Objective  
+• Quantify the campaign's impact with 95% confidence  
+• Demonstrate proper paired test methodology  
+• Guide future marketing investment decisions  
 
-**Why This Project?**  
-Evaluate effectiveness of interventions.
+### 📊 Dataset Description  
+**Synthetic Sales Data (30 Stores):**  
+• **Before Campaign:**  
+  - Mean Sales: 200 units  
+  - Standard Deviation: 20 units  
+• **After Campaign:**  
+  - Mean Sales: ~210 units (+5% lift)  
+  - Added Noise: N(10,15)  
 
-**Benefits / Use Cases:**  
-Campaign effectiveness, process improvements.
+**Key Variables:**  
+• `Store_ID`: Unique identifier  
+• `Before_Campaign`: Daily avg sales (pre-intervention)  
+• `After_Campaign`: Daily avg sales (post-intervention)  
 
-**Statistical Test Used:**  
-Paired T-Test
+### 🚀 Project Highlights  
+✅ **Assumption Validation:**  
+   - Shapiro-Wilk test (p=0.913 → normally distributed differences)  
+   - Visual checks via Q-Q plots and histograms  
 
-**Key Findings & Result Summary:**  
-Significant sales increase post-campaign.
+✅ **Robust Analysis:**  
+   - Proper handling of paired observations  
+   - Correct interpretation of directional change  
 
+✅ **Business-Ready Insights:**  
+   - Clear effect size calculation  
+   - Statistical significance with practical interpretation  
+
+### 🔍 Why This Matters  
+• Real-world example of **within-subjects** analysis  
+• Shows why paired tests outperform independent tests for before/after studies  
+• Provides template for marketing ROI measurement  
+
+### 💡 Value Proposition  
+📌 **For Marketing Teams:**  
+   - Proof of campaign effectiveness  
+   - Justification for future budgets  
+
+📌 **For Store Managers:**  
+   - Quantified performance impact  
+   - Benchmark for future initiatives  
+
+📌 **For Data Teams:**  
+   - Complete paired test workflow  
+   - Assumption checking best practices  
+
+### 📈 Statistical Approach  
+1. **Normality Testing:**  
+   - Shapiro-Wilk on paired differences (p > 0.05 → normal)  
+
+2. **Paired T-Test Results:**  
+   - t-statistic: 3.209  
+   - p-value: 0.0032  
+   - Mean Difference: +10 units  
+   - 95% CI: [3.8, 16.2]  
+
+### 🔑 Key Findings  
+• **Highly Significant Result** (p = 0.0032)  
+• **Average Lift:** +10 units per store (5% increase)  
+• **Confidence:** 95% certain true effect is between +3.8 to +16.2 units  
+
+### 📢 Executive Conclusion  
+"The advertising campaign **successfully increased sales** by an average of 10 units per store (p < 0.01). This statistically significant result suggests the campaign should be considered for scaling to other markets." 
 ---
 
 ### 5. ANOVA
