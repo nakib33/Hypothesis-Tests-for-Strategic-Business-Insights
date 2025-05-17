@@ -49,7 +49,7 @@ This repository contains 10 comprehensive projects focused on applying various s
 ## Detailed Project Information
 
 ## 1. A/B Testing
-📄 **Peoject Link:** **[A_B_Testing_Project.ipynb](Hypothesis%20Testing/AB%20Testing/A_B_Testing_Project.ipynb)**
+📄 **Project Link:** **[A_B_Testing_Project.ipynb](Hypothesis%20Testing/AB%20Testing/A_B_Testing_Project.ipynb)**
 
 ## A/B Testing Project: Evaluating Button Color Impact on User Conversions  
 
@@ -149,7 +149,7 @@ The dataset contains synthetic user interaction data simulating an A/B test with
 
 ## **Chi-Square Test Project: Gender vs Purchase Likelihood Analysis**  
 
-📄 **Peoject Link:** **[Chi_Square_Testing.ipynb](Hypothesis%20Testing/Chi-Square%20Test/Chi_Square_Testing.ipynb)**
+📄 **Project Link:** **[Chi_Square_Testing.ipynb](Hypothesis%20Testing/Chi-Square%20Test/Chi_Square_Testing.ipynb)**
 
 ### 📌 Overview  
 This project employs the **Chi-Square Test of Independence** to investigate whether a statistically significant association exists between customer gender and product purchase likelihood in an e-commerce context. Using a carefully crafted synthetic dataset that mimics real-world shopping behavior, the analysis includes:  
@@ -240,9 +240,9 @@ E-commerce businesses often wonder if demographic factors like gender influence 
 
 ## 3. Two-Sample T-Test
 
-## 📊 Two-Sample T-Test: Revenue Comparison Between North and South Regions  
+## 📊 **Two-Sample T-Test: Revenue Comparison Between North and South Regions**  
 
-📄 **Peoject Link:** **[Two-Sample T-Test.ipynb](Hypothesis%20Testing/Hypothesis%20Tests/1.%20Two-Sample%20T-Test.ipynb)**
+📄 **Project Link:** **[Two-Sample T-Test.ipynb](Hypothesis%20Testing/Hypothesis%20Tests/1.%20Two-Sample%20T-Test.ipynb)**
 
 ### 🌐 Overview  
 This project performs a Two-Sample Independent t-test to analyze whether there's a statistically significant difference in average revenue between North and South regions of a retail business. Using a carefully generated synthetic dataset, we:  
@@ -332,7 +332,7 @@ A retail chain observes slight revenue differences between its North and South l
 
 ## 4. Paired T-Test
 
-📄 **Peoject Link:** **[Paired T-Test.ipynb](Hypothesis%20Testing/Hypothesis%20Tests/2.%20Paired%20T-Test.ipynb)**
+📄 **Project Link:** **[Paired T-Test.ipynb](Hypothesis%20Testing/Hypothesis%20Tests/2.%20Paired%20T-Test.ipynb)**
 
 ## **📊 Paired T-Test Analysis: Measuring Ad Campaign Effectiveness** 
 
@@ -418,9 +418,9 @@ This project uses a **Paired T-Test** to evaluate whether an advertising campaig
 
 ## 5. ANOVA
 
-📄 **Peoject Link:** **[ANOVA Test](Hypothesis%20Testing/Hypothesis%20Tests/3.%20ANOVA%20Test.ipynb)**
+📄 **Project Link:** **[ANOVA Test](Hypothesis%20Testing/Hypothesis%20Tests/3.%20ANOVA%20Test.ipynb)**
 
-##📊 ANOVA Analysis: Comparing Marketing Campaign Effectiveness  
+## 📊 **ANOVA Analysis: Comparing Marketing Campaign Effectiveness**  
 
 ### 🌟 Overview  
 This project employs **One-Way ANOVA** to evaluate whether three marketing campaigns (Email, Social Media, TV) generate significantly different revenue outcomes. Through rigorous assumption checks and statistical testing, we provide data-driven insights for marketing strategy optimization.
@@ -506,9 +506,9 @@ This project employs **One-Way ANOVA** to evaluate whether three marketing campa
 
 ## 6. Correlation Coefficient
 
-📄 **Peoject Link:** **[Correlation_Coefficient.ipynb](Hypothesis%20Testing/Hypothesis%20Tests/4_Correlation_Coefficient.ipynb)**
+📄 **Project Link:** **[Correlation_Coefficient.ipynb](Hypothesis%20Testing/Hypothesis%20Tests/4_Correlation_Coefficient.ipynb)**
 
-##📈 Correlation Analysis: Advertising Spend vs Revenue  
+## 📈 **Correlation Analysis: Advertising Spend vs Revenue** 
 
 ### 🌟 Overview  
 This project investigates the relationship between advertising expenditure and revenue generation using Pearson's correlation coefficient. Through synthetic data modeling and rigorous statistical testing, we determine whether increased ad spending reliably predicts higher revenue.
@@ -593,129 +593,355 @@ This project investigates the relationship between advertising expenditure and r
 
 ### 7. Mann-Whitney U Test
 
-**Overview:**  
-Non-parametric alternative to two-sample t-test for independent groups.
+📄 **Project Link:** **[Mann-Whitney U Test.ipynb](Hypothesis%20Testing/Hypothesis%20Tests/5.%20Mann-Whitney%20U%20Test.ipynb)**
 
-**Problem Statement:**  
-Are sales distributions different between two regions where normality is violated?
+## 📊 **Non-Parametric Comparison: North vs South Sales Performance**  
 
-**Objective:**  
-Test for differences without assuming normality.
+### 🌟 Overview  
+This project employs the **Mann-Whitney U Test** to compare sales revenue distributions between two retail regions without normality assumptions. Using synthetic gamma-distributed data, we demonstrate proper non-parametric analysis workflow from assumption checks to business interpretation.
 
-**Dataset Description:**  
-Synthetic sales data violating normality.
+### ❓ Problem Statement  
+"Is there a statistically significant difference in sales performance between our North and South regions, given non-normal revenue distributions?"  
 
-**Project Highlights:**  
-- Data visualization to check distribution  
-- Mann-Whitney U test applied
+### 🎯 Objective  
+• Compare regional sales distributions robustly  
+• Demonstrate non-parametric testing methodology  
+• Guide regional strategy decisions with data  
 
-**Why This Project?**  
-Robust testing under non-normal data.
+### 📊 Dataset Description  
+**Synthetic Revenue Data (200 Records):**  
+• **North Region (100 stores):**  
+  - Gamma distribution (shape=2, scale=500)  
+  - Positively skewed  
+• **South Region (100 stores):**  
+  - Gamma distribution (shape=2, scale=520)  
+  - Slightly higher potential values  
 
-**Benefits / Use Cases:**  
-Non-parametric testing when assumptions fail.
+**Variables:**  
+• `region`: Categorical (North/South)  
+• `revenue`: Continuous numerical values  
 
-**Statistical Test Used:**  
-Mann-Whitney U Test
+### 🚀 Project Highlights  
+✅ **Proper Assumption Handling:**  
+   - Confirmed non-normality (Shapiro-Wilk p < 0.001)  
+   - Verified equal variances (Levene's p = 0.198)  
 
-**Key Findings & Result Summary:**  
-No significant difference in sales distributions between regions.
+✅ **Robust Statistical Testing:**  
+   - Correct application of Mann-Whitney U test  
+   - Clear interpretation of rank-based comparison  
 
----
+✅ **Actionable Business Insights:**  
+   - Translates statistical results to strategic guidance  
+   - Provides framework for regional performance analysis  
 
-### 8. Wilcoxon Signed-Rank Test
+### 🔍 Why This Matters  
+• Real-world demonstration of **non-parametric testing**  
+• Shows alternative when t-test assumptions fail  
+• Provides template for **skewed data comparisons**  
 
-**Overview:**  
-Non-parametric alternative to paired t-test.
+### 💡 Business Value  
+📌 **For Regional Managers:**  
+   - Evidence-based performance evaluation  
+   - Avoids misleading normal-distribution assumptions  
 
-**Problem Statement:**  
-Is there a difference in customer satisfaction before and after a service change, without assuming normality?
+📌 **For Data Teams:**  
+   - Complete non-parametric analysis example  
+   - Proper assumption validation techniques  
 
-**Objective:**  
-Analyze paired differences non-parametrically.
+📌 **For Executives:**  
+   - Confidence in regional comparisons  
+   - Guides resource allocation decisions  
 
-**Dataset Description:**  
-Synthetic paired satisfaction scores.
+### 📈 Statistical Approach  
+1. **Assumption Verification:**  
+   - Shapiro-Wilk: Confirmed non-normality (p < 0.001)  
+   - Levene's Test: Equal variances (p = 0.198)  
 
-**Project Highlights:**  
-- Check data for normality violations  
-- Wilcoxon Signed-Rank test application
+2. **Mann-Whitney U Test Results:**  
+   - U-statistic: 4549.0  
+   - p-value: 0.2710  
+   - Effect Size: Rank-biserial correlation optional  
 
-**Why This Project?**  
-Paired comparisons with non-normal data.
+### 🔑 Key Findings  
+• **High p-value (0.271 > 0.05)** → Fail to reject null  
+• **No significant difference** in revenue distributions  
+• Median revenues:  
+  - North: $963.42  
+  - South: $996.87  
 
-**Benefits / Use Cases:**  
-Customer satisfaction studies, repeated measures.
+### 📢 Strategic Conclusion  
 
-**Statistical Test Used:**  
-Wilcoxon Signed-Rank Test
+**No statistically significant difference exists between North and South sales distributions (p = 0.27). Regional strategies should:** 
 
-**Key Findings & Result Summary:**  
-Significant difference found in satisfaction scores pre- and post-service change.
+1️⃣ **Focus on non-geographic performance drivers**
+2️⃣ **Investigate higher-level business factors**  
+3️⃣ **Maintain consistent policies across regions**
 
----
-
-### 9. Kruskal-Wallis Test
-
-**Overview:**  
-Non-parametric alternative to ANOVA.
-
-**Problem Statement:**  
-Do sales differ across marketing channels when data normality is violated?
-
-**Objective:**  
-Test for differences among three or more independent groups.
-
-**Dataset Description:**  
-Synthetic non-normal sales data for multiple campaigns.
-
-**Project Highlights:**  
-- Visualization and assumption checks  
-- Kruskal-Wallis test application
-
-**Why This Project?**  
-Robust multi-group comparison without normality assumption.
-
-**Benefits / Use Cases:**  
-Marketing analysis, product performance.
-
-**Statistical Test Used:**  
-Kruskal-Wallis Test
-
-**Key Findings & Result Summary:**  
-No significant sales differences across channels.
 
 ---
 
-### 10. Chi-Square Goodness of Fit Test
+## 8. Wilcoxon Signed-Rank Test
 
-**Overview:**  
-Tests if observed frequencies match expected frequencies.
+📄 **Project Link:** **[Wilcoxon Signed-Rank Test.ipynb](Hypothesis%20Testing/Hypothesis%20Tests/6.%20Wilcoxon%20Signed-Rank%20Test.ipynb)**
 
-**Problem Statement:**  
-Does customer distribution across campaigns differ from expected proportions?
+## 📈 Wilcoxon Signed-Rank Test: Promotional Campaign Impact Analysis  
 
-**Objective:**  
-Evaluate fit between observed and expected counts.
+### 🌟 Overview  
+This project applies the **Wilcoxon Signed-Rank Test** to evaluate whether a promotional campaign significantly increased daily sales. Using synthetic paired data that violates normality assumptions, we demonstrate proper non-parametric analysis for before-after studies.
 
-**Dataset Description:**  
-Synthetic frequency counts of customers by campaign.
+### ❓ Problem Statement  
+"Did our recent promotional campaign actually increase sales, given that our sales data isn't normally distributed?"  
 
-**Project Highlights:**  
-- Frequency table creation  
-- Chi-square goodness of fit test
+### 🎯 Objective  
+• Quantify campaign impact without normality assumptions  
+• Demonstrate robust paired data analysis  
+• Provide actionable marketing insights  
 
-**Why This Project?**  
-Check if observed behavior matches business expectations.
+### 📊 Dataset Description  
+**Synthetic Sales Data (60 Days):**  
+• **Before Campaign:**  
+  - Gamma distribution (shape=2, scale=100)  
+  - Median: $191.42  
+• **After Campaign:**  
+  - Before sales + N(10,15) boost  
+  - Median: $200.87 (+4.9%)  
 
-**Benefits / Use Cases:**  
-Resource allocation, campaign targeting.
+**Variables:**  
+• `before_sales`: Daily sales pre-campaign  
+• `after_sales`: Daily sales post-campaign  
 
-**Statistical Test Used:**  
-Chi-Square Goodness of Fit Test
+### 🚀 Project Highlights  
+✅ **Assumption Validation:**  
+   - Confirmed non-normality of differences (Shapiro-Wilk p=0.295)  
+   - Proper handling of paired observations  
 
-**Key Findings & Result Summary:**  
-Observed distribution aligns with expected customer distribution.
+✅ **Robust Statistical Testing:**  
+   - Correct application of Wilcoxon signed-rank test  
+   - Effect size calculation (optional)  
+
+✅ **Business-Ready Insights:**  
+   - Clear interpretation of median differences  
+   - Statistical significance with practical implications  
+
+### 🔍 Why This Matters  
+• Real-world demonstration of **non-parametric paired testing**  
+• Shows alternative when paired t-test assumptions fail  
+• Provides template for **marketing intervention analysis**  
+
+### 💡 Business Value  
+📌 **For Marketing Teams:**  
+   - Proof of campaign effectiveness  
+   - Justification for future promotions  
+
+📌 **For Store Managers:**  
+   - Quantified sales impact  
+   - Benchmark for future initiatives  
+
+📌 **For Data Teams:**  
+   - Complete non-parametric workflow  
+   - Best practices for skewed paired data  
+
+### 📈 Statistical Approach  
+1. **Assumption Verification:**  
+   - Shapiro-Wilk on differences (p=0.295 → non-normal)  
+
+2. **Wilcoxon Signed-Rank Results:**  
+   - Test Statistic: 309.0  
+   - p-value: <0.001  
+   - Median Increase: +$9.45 (4.9%)  
+
+### 🔑 Key Findings  
+• **Highly Significant Result** (p < 0.0001)  
+• **Median Sales Increase**: +4.9%  
+• **Practical Impact**: Campaign successfully boosted sales  
+
+### 📢 Executive Conclusion  
+**The promotional campaign **significantly increased daily sales** by a median of 4.9% (p < 0.001). This strong evidence supports:**  
+1️⃣ **Repeating similar campaigns**  
+2️⃣ **Allocating budget for promotions**  
+3️⃣ **Further testing to optimize impact**
+
+---
+
+## 9. Kruskal-Wallis Test
+
+📄 **Project Link:** **[Kruskal-Wallis Test](Hypothesis%20Testing/Hypothesis%20Tests/7.%20Kruskal-Wallis%20Test.ipynb)**
+
+## 📊 **Kruskal-Wallis Test: Comparing Marketing Channel Performance**  
+
+### 🌟 Overview  
+This project applies the **Kruskal-Wallis H-test** to evaluate whether sales performance differs across three marketing channels (Email, Social Media, TV) when data violates normality assumptions. The analysis provides robust insights for marketing budget allocation decisions.
+
+### ❓ Problem Statement  
+"Do our marketing channels (Email vs Social Media vs TV) generate significantly different sales results, given non-normal revenue distributions?"  
+
+### 🎯 Objective  
+• Compare channel performance without normality assumptions  
+• Demonstrate proper non-parametric multi-group analysis  
+• Guide marketing budget allocation decisions  
+
+### 📊 Dataset Description  
+**Synthetic Sales Data (150 Records):**  
+• **Email Campaign (50):**  
+  - Gamma distribution (shape=2, scale=120)  
+  - Median: $229.18  
+• **Social Media (50):**  
+  - Gamma distribution (shape=2, scale=110)  
+  - Median: $210.65  
+• **TV Campaign (50):**  
+  - Gamma distribution (shape=2, scale=140)  
+  - Median: $268.94  
+
+**Variables:**  
+• `channel`: Categorical (Email/Social/TV)  
+• `sales`: Continuous numerical values  
+
+### 🚀 Project Highlights  
+✅ **Comprehensive Assumption Checks:**  
+   - Confirmed non-normality for all channels (Shapiro-Wilk p < 0.05)  
+   - Verified ordinal data structure  
+
+✅ **Robust Statistical Testing:**  
+   - Correct application of Kruskal-Wallis test  
+   - Post-hoc analysis available if significant  
+
+✅ **Actionable Business Insights:**  
+   - Clear interpretation of median sales  
+   - Statistical significance with practical implications  
+
+### 🔍 Why This Matters  
+• Real-world demonstration of **non-parametric ANOVA alternative**  
+• Shows proper handling of **skewed multi-group data**  
+• Provides template for **marketing channel evaluation**  
+
+### 💡 Business Value  
+📌 **For CMOs:**  
+   - Data-driven channel performance assessment  
+   - Objective budget allocation guidance  
+
+📌 **For Marketing Teams:**  
+   - Identifies equally effective channels  
+   - Prevents over-investment in underperforming channels  
+
+📌 **For Data Teams:**  
+   - Complete non-parametric workflow  
+   - Best practices for ordinal data analysis  
+
+### 📈 Statistical Approach  
+1. **Assumption Verification:**  
+   - Shapiro-Wilk tests (All p < 0.05 → non-normal)  
+
+2. **Kruskal-Wallis Test Results:**  
+   - H-statistic: 2.6024  
+   - p-value: 0.2722  
+   - Group Medians:  
+     • Email: $229.18  
+     • Social: $210.65  
+     • TV: $268.94  
+
+### 🔑 Key Findings  
+• **High p-value (0.272 > 0.05)** → Fail to reject null  
+• **No significant difference** in sales distributions  
+• Observed median differences likely due to random variation  
+
+### 📢 Strategic Conclusion  
+**All three marketing channels perform **statistically similarly** in sales generation (p = 0.27). Recommendations:**  
+1️⃣ **Allocate budgets based on cost-efficiency rather than sales differences**  
+2️⃣ **Investigate other performance metrics (ROI, customer acquisition cost)**  
+3️⃣ **Consider testing additional channels or campaign variations**
+
+---
+
+## 10. Chi-Square Goodness of Fit Test
+
+📄 **Project Link:** **[Chi-Square Goodness.ipynb
+](Hypothesis%20Testing/Hypothesis%20Tests/8.%20Chi-Square%20Goodness.ipynb)**
+
+📊 Chi-Square Goodness of Fit: Marketing Campaign Analysis  
+
+### 🌟 Overview  
+This project applies the **Chi-Square Goodness of Fit Test** to evaluate whether observed customer responses across three marketing campaigns match expected historical patterns. The analysis helps validate marketing channel performance assumptions.
+
+### ❓ Problem Statement  
+"Does our current customer response distribution across Email, Social Media, and TV campaigns differ significantly from what we historically expect?"  
+
+### 🎯 Objective  
+• Test alignment between observed and expected customer distributions  
+• Demonstrate proper Chi-Square Goodness of Fit implementation  
+• Provide data-driven insights for campaign evaluation  
+
+### 📊 Dataset Description  
+**Synthetic Customer Response Data:**  
+• **Observed Counts:**  
+  - Email: 120 customers  
+  - Social Media: 95 customers  
+  - TV: 85 customers  
+• **Expected Proportions:**  
+  - Email: 40%  
+  - Social Media: 35%  
+  - TV: 25%  
+
+**Total Customers:** 300  
+
+### 🚀 Project Highlights  
+✅ **Proper Test Selection:**  
+   - Designed for categorical frequency data  
+   - Non-parametric (no normality assumptions)  
+
+✅ **Rigorous Assumption Checks:**  
+   - Verified expected frequencies ≥5  
+   - Confirmed independence of observations  
+
+✅ **Clear Interpretation:**  
+   - Business-focused conclusions  
+   - Practical significance assessment  
+
+### 🔍 Why This Matters  
+• Demonstrates **distribution validation** technique  
+• Provides framework for **marketing performance benchmarking**  
+• Shows proper **categorical data analysis** approach  
+
+### 💡 Business Value  
+📌 **For Marketing Teams:**  
+   - Validates campaign performance assumptions  
+   - Guides resource allocation decisions  
+
+📌 **For Data Analysts:**  
+   - Complete Chi-Square workflow example  
+   - Expected frequency calculation method  
+
+📌 **For Executives:**  
+   - Confidence in campaign distribution patterns  
+   - Evidence for strategic planning  
+
+### 📈 Statistical Approach  
+1. **Assumption Verification:**  
+   - All expected counts ≥5 (Met)  
+   - Independent observations (By design)  
+
+2. **Chi-Square Test Results:**  
+   - χ² Statistic: 2.2857  
+   - p-value: 0.3189  
+   - Degrees of Freedom: 2  
+
+### 🔑 Key Findings  
+• **High p-value (0.319 > 0.05)** → Fail to reject null  
+• **No significant difference** between observed/expected  
+• Current campaign responses match historical patterns  
+
+### 📢 Strategic Conclusion  
+**Customer responses align with historical distributions across all channels (p = 0.32). Recommended actions:**  
+1️⃣ **Maintain current campaign mix**  
+2️⃣ **Monitor for future deviations**  
+3️⃣ **Investigate absolute performance metrics**
+
+---
+
+### 🛠️ Technical Implementation  
+   - Python (Pandas, NumPy)  
+   - SciPy (kruskal, shapiro)  
+   - Matplotlib/Seaborn (Visualizations)
+
 
 ---
 
